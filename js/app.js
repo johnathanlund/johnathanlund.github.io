@@ -1,7 +1,7 @@
 angular.module('portfolioApp', ['ui.router'])
 .config(function ($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/homePage');
+
 
     $stateProvider
         .state('home', {
@@ -23,6 +23,6 @@ angular.module('portfolioApp', ['ui.router'])
         .state('spartaAttack', {
           url: "/spartaPage",
           templateUrl: "./js/home/spartaTmpl.html"
-        })
-
+        });
+        $urlRouterProvider.otherwise('/homePage');
 })

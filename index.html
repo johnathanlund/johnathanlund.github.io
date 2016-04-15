@@ -10,14 +10,8 @@
     <title>John Lund Portfolio</title>
   </head>
   <body ng-controller="mainCtrl">
-    <section class="navbar-container">
-      <ul class="navbar-links">
-        <div class="home"><a ui-sref="home"><button type="button">HOME</button></a></div> <br/>
-        <div class="work"><a ui-sref="work"><button type="button">WORK</button></a></div> <br/>
-        <div class="inspiration"><a ui-sref="inspiration"><button type="button">INSPIRATION</button></a></div> <br/>
-        <div class="knowledge"><a ui-sref="knowledge"><button type="button">KNOWLEDGE</button></a></div>
-      </ul>
-    </section>
+
+    <navcircle-menu></navcircle-menu>
     <section class="view-page-container" ui-view>
       <div class="body-backgroundImg">
 
@@ -32,5 +26,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/mainCtrl.js"></script>
+    <script src="js/directive.js"></script>
   </body>
 </html>
