@@ -1,0 +1,158 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.view-page-container {
+  height:1200px;
+  width: 100%;
+  padding-top: 0;
+}
+#home-element-with-background-image {
+  height: 100%;
+  width: 100%;
+  background-image:
+         linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(255, 255, 255, 0.91)),
+         url('./img/spartan-helmet.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+#work-page-container {
+  height: 100%;
+  width: 100%;
+  background-image:
+         /*linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(255, 255, 255, 0.91)),*/
+         url('./img/soccer_real_madrid_ronaldo.jpg');
+         background-size: cover;
+  background-repeat: no-repeat;
+
+  /*background-attachment: fixed;*/
+}
+
+.work-title {
+  font-size: 600%;
+  color: rgb(38, 195, 230);
+  text-align: center;
+}
+#inspir-page-container {
+  height: 100%;
+  width: 100%;
+  color: orange;
+  background-image:
+         /*linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(47, 227, 65, 0.6)),*/
+         url('./img/melissani-cave-water-greece.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+}
+
+.inspir-list {
+  font-size: 350%;
+  text-align: center;
+  text-shadow: 2px 2px black,
+               -2px 2px black,
+               2px -2px black,
+               -2px -2px black;
+}
+
+.home-page-container {
+  position: relative;
+}
+
+#name-headline {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: 100;
+  background: -webkit-linear-gradient(rgb(33, 171, 199), black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 800%;
+}
+
+#spartaAttack button {
+  background: lawngreen;
+}
+.sparta-attack-container {
+  width: 100%;
+  height: 100%;
+  /*margin-top: 10%;
+  margin-left: 10%;*/
+}
+.sparta-attack-window {
+  height: 100%;
+  width: 100%;
+  color: orange;
+  background-image:
+
+         url('./img/Flaming-Arrow-Robin-Hood-Gif.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+
+.thisSparta-attack-container {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: -10%;
+  /*margin-top: 10%;
+  margin-left: 10%;*/
+}
+.thisSparta-attack-window {
+  height: 100%;
+  width: 100%;
+  color: orange;
+  background-image:
+
+         url('./img/this-is-sparta2.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+
+.thisSparta-attack-window strong {
+    position: fixed;
+    bottom: 200px;
+    background: -webkit-linear-gradient(rgb(33, 171, 199), black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-left: 500px;
+    font-size: 450%;
+}
+
+
+#red-eye {
+  display: block;
+  opacity: 0;
+  background: radial-gradient(rgba(230, 18, 18, 1), grey);
+  margin-left: 1235px;
+  margin-top: 210px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+#red-eye:hover {
+  opacity: 1;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    -webkit-box-shadow:0px 0px 80px red;
+    -moz-box-shadow: 0px 0px 80px red;
+    box-shadow: 0px 0px 80px red;
+}
+
+footer {
+  position: fixed;
+  bottom: 5px;
+  text-align: center;
+  font-size: 250%;
+}
