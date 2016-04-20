@@ -7,7 +7,7 @@ body {
 .view-page-container {
   height:1200px;
   width: 100%;
-  padding-top: 0; 
+  padding-top: 0;
 }
 #home-element-with-background-image {
   height: 100%;
@@ -36,6 +36,12 @@ h2 {
 
   /*background-attachment: fixed;*/
 }
+
+.work-title {
+  font-size: 600%;
+  color: rgb(38, 195, 230);
+  text-align: center;
+}
 #inspir-page-container {
   height: 100%;
   width: 100%;
@@ -46,6 +52,15 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
+}
+
+.inspir-list {
+  font-size: 350%;
+  text-align: center;
+  text-shadow: 2px 2px black,
+               -2px 2px black,
+               2px -2px black,
+               -2px -2px black;
 }
 
 .home-page-container {
