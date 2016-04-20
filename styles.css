@@ -7,65 +7,63 @@ body {
 .view-page-container {
   height:1200px;
   width: 100%;
-  padding: inherit;
-
-  margin-right: 0;
+  padding-top: 0; 
 }
 #home-element-with-background-image {
   height: 100%;
   width: 100%;
-  font-family: sans-serif;
   background-image:
          linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(255, 255, 255, 0.91)),
          url('./img/spartan-helmet.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
-}
-
-.testList {
-  color: blue;
-  font-size: 140%;
-}
-#knowledge-container h1 {
-  color: #FF5825;
 }
 
 h2 {
   text-align: center;
   color: white;
 }
-#knowledge-container {
-  height: 100%;
-  width: 100%;
-  font-family: sans-serif;
-  background-image:
-         /*linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(255, 255, 255, 0.91)),*/
-         url('./img/nature_s_paradise.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  /*background-attachment: fixed;*/
-}
+
 #work-page-container {
   height: 100%;
   width: 100%;
-  font-family: sans-serif;
   background-image:
-         linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(255, 255, 255, 0.91)),
-         url('./img/Spartan-ruins.jpg');
+         /*linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(255, 255, 255, 0.91)),*/
+         url('./img/soccer_real_madrid_ronaldo.jpg');
+         background-size: cover;
   background-repeat: no-repeat;
+
   /*background-attachment: fixed;*/
 }
 #inspir-page-container {
   height: 100%;
   width: 100%;
-  font-family: sans-serif;
   color: orange;
   background-image:
-         linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(47, 227, 65, 0.6)),
+         /*linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(47, 227, 65, 0.6)),*/
          url('./img/melissani-cave-water-greece.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
+}
+
+.home-page-container {
+  position: relative;
+}
+
+#name-headline {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: 100;
+  background: -webkit-linear-gradient(rgb(33, 171, 199), black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 800%;
+}
+
+#spartaAttack button {
+  background: lawngreen;
 }
 .sparta-attack-container {
   width: 100%;
@@ -76,42 +74,70 @@ h2 {
 .sparta-attack-window {
   height: 100%;
   width: 100%;
-  font-family: sans-serif;
   color: orange;
   background-image:
-         linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(0, 0, 0, 0.91)),
+
          url('./img/Flaming-Arrow-Robin-Hood-Gif.gif');
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment: fixed;*/
 }
 
+.thisSparta-attack-container {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: -10%;
+  /*margin-top: 10%;
+  margin-left: 10%;*/
+}
+.thisSparta-attack-window {
+  height: 100%;
+  width: 100%;
+  color: orange;
+  background-image:
+
+         url('./img/this-is-sparta2.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+
+.thisSparta-attack-window strong {
+    position: fixed;
+    bottom: 200px;
+    background: -webkit-linear-gradient(rgb(33, 171, 199), black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-left: 500px;
+    font-size: 450%;
+}
+
+
+#red-eye {
+  display: block;
+  opacity: 0;
+  background: radial-gradient(rgba(230, 18, 18, 1), grey);
+  margin-left: 1235px;
+  margin-top: 210px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+#red-eye:hover {
+  opacity: 1;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    -webkit-box-shadow:0px 0px 80px red;
+    -moz-box-shadow: 0px 0px 80px red;
+    box-shadow: 0px 0px 80px red;
+}
+
 footer {
-  position: abosolute;
-  margin-bottom: 0px;
+  position: fixed;
+  bottom: 5px;
   text-align: center;
   font-size: 250%;
 }
-
-.navbar-links {
-  display: inline-block;
-  position: relative;
-}
-/*.navbar-container {
-  width: 50px;
-  height: 20px;
-  position: relative;
-  background: rgb(19, 129, 199, 0);
-  margin-top: 5px;
-  text-align: center;
-  color: white;
-  display: inline-table;;
-  padding: 0;
-}
-.navbar-circle button {
-  background-color: rgb(28, 184, 160);
-  color: yellow;
-}*/
-/*#knowledge-container navcircle-menu button {
-  background: red;
-}*/

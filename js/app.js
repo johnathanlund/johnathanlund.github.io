@@ -23,6 +23,10 @@ angular.module('portfolioApp', ['ui.router'])
         .state('spartaAttack', {
           url: "/spartaPage",
           templateUrl: "./js/home/spartaTmpl.html"
+        })
+        .state('thisIsSparta', {
+          url: "/sparta2Page",
+          templateUrl: "./js/home/spartaTmpl2.html"
         });
         $urlRouterProvider.otherwise('/homePage');
 })
