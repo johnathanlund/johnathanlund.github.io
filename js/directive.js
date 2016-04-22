@@ -10,6 +10,6 @@ angular.module('portfolioApp')
 .directive('footer', function () {
   return {
     restrict: "AE",
-    template: "<div class='footerInfo'><strong>Johnathan Lund</strong> is one of the radest dudes to ever write this<strong>!</strong></div>"
+    template: "<div class='footerInfo'><strong>Johnathan Lund</strong> is a MEAN stack developer. <br/> Ready to take on any project.</div>"
   };
 });

@@ -1,6 +1,6 @@
 body {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background: black;
 }
 
@@ -10,8 +10,8 @@ body {
   padding-top: 0;
 }
 #home-element-with-background-image {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background-image:
          linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(255, 255, 255, 0.91)),
          url('./img/spartan-helmet.jpg');
@@ -25,22 +25,34 @@ h2 {
   color: white;
 }
 
-#work-page-container {
+.work-page-container {
   height: 100%;
   width: 100%;
   background-image:
          /*linear-gradient(to bottom, rgba(33, 171, 199, 0.6), rgba(255, 255, 255, 0.91)),*/
          url('./img/soccer_real_madrid_ronaldo.jpg');
-         background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-
   /*background-attachment: fixed;*/
 }
 
 .work-title {
   font-size: 600%;
-  color: rgb(38, 195, 230);
+  color: rgb(3, 122, 231);
   text-align: center;
+}
+
+.work-example-list {
+  font-size: 200%;
+  text-shadow: 2px 2px white,
+               -2px 2px white,
+               2px -2px white,
+               -2px -2px white;
+}
+
+#work-footer {
+  text-align: center;
+  margin-left: 20%;
 }
 #inspir-page-container {
   height: 100%;
@@ -54,6 +66,14 @@ h2 {
   /*background-attachment: fixed;*/
 }
 
+.inspir-title {
+  font-size: 450%;
+  color: lawngreen;
+  text-shadow: 2px 2px green,
+               -2px 2px green,
+               2px -2px green,
+               -2px -2px green;
+}
 .inspir-list {
   font-size: 350%;
   text-align: center;
@@ -77,6 +97,11 @@ h2 {
   font-size: 800%;
 }
 
+.home-page-container footer{
+  color: #167083;
+  text-align: center;
+  margin-left: 20%;
+}
 #spartaAttack button {
   background: lawngreen;
 }
@@ -154,5 +179,11 @@ footer {
   position: fixed;
   bottom: 5px;
   text-align: center;
-  font-size: 250%;
+  font-size: 450%;
+}
+
+@media screen and (max-width: 1200px) {
+  .module {
+    width: 600px;
+  }
 }
