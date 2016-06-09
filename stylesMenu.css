@@ -154,8 +154,8 @@
 .menu-open:checked ~ .menu-item:nth-child(9) {
   transition-duration: 780ms;
   -webkit-transition-duration: 780ms;
-  -webkit-transform: translate3d(-0.25084px, -14.9997px, 0);
-  transform: translate3d(-0.25084px, -14.9997px, 0);
+  -webkit-transform: translate3d(-0.25084px, -104.9997px, 0);
+  transform: translate3d(-0.25084px, -104.9997px, 0);
 }
 
 .menu-item {
@@ -175,7 +175,6 @@
   transition: transform ease-out 200ms;
   transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
 }
-
 
 .menu-item:hover {
   background: rgba(31, 230, 194, 0.55);
