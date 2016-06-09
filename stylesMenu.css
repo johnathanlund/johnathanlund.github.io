@@ -1,3 +1,13 @@
+.menu {
+  width: 15px;
+  height: 15px;
+  margin-left:200px;
+  padding-top: 75px;
+  position: fixed;
+  box-sizing: border-box;
+  font-size: 26px;
+}
+
 .menu-open-button {
   background: rgba(49, 187, 217, 1);
   border-radius: 100%;
@@ -42,13 +52,13 @@
 }
 
 .line-2 {
-  background: rgb(111, 111, 111);
+  background: white;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
 .line-3 {
-  background: lawngreen;
+  background: white;
   -webkit-transform: translate3d(0, 8px, 0);
   transform: translate3d(0, 8px, 0);
 }
@@ -90,8 +100,8 @@
   transition-timing-function: linear;
   -webkit-transition-duration: 200ms;
   transition-duration: 200ms;
-  -webkit-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
-  transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+  -webkit-transform: scale(1.0, 1.0) translate3d(0, 0, 0);
+  transform: scale(1.0, 1.0) translate3d(0, 0, 0);
 }
 
 .menu-open:checked ~ .menu-item {
@@ -144,15 +154,15 @@
 .menu-open:checked ~ .menu-item:nth-child(9) {
   transition-duration: 780ms;
   -webkit-transition-duration: 780ms;
-  -webkit-transform: translate3d(-0.25084px, -104.9997px, 0);
-  transform: translate3d(-0.25084px, -104.9997px, 0);
+  -webkit-transform: translate3d(-0.25084px, -14.9997px, 0);
+  transform: translate3d(-0.25084px, -14.9997px, 0);
 }
 
 .menu-item {
   background: #EEEEEE;
   border-radius: 100%;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   margin-left: -40px;
   position: absolute;
   color: #d41717;
@@ -166,16 +176,6 @@
   transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
 }
 
-.menu {
-  margin-left:2000px;
-  padding-top: 50px;
-  position: fixed;
-  width: 15px;
-  height: 15px;
-  text-align: center;
-  box-sizing: border-box;
-  font-size: 26px;
-}
 
 .menu-item:hover {
   background: rgba(31, 230, 194, 0.55);
@@ -273,7 +273,7 @@
 
 .item-5 {
   /*background-color: #FC913A;*/
-  background-image: url('./img/devmountain-symbol.png');
+  background-image: url('./img/Project_icon_folder.png');
   background-size: cover;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -286,6 +286,8 @@
 
 .item-6 {
   background-color: #62C2E4;
+  background-image: url('./img/devmountain-symbol.png');
+  background-size: cover;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }

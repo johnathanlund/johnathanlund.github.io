@@ -20,6 +20,10 @@ angular.module('portfolioApp', ['ui.router'])
           url: "/knowledge",
           templateUrl: "./js/knowledge/knowTmpl.html"
         })
+        .state('home2', {
+          url: "/home2",
+          templateUrl: "./js/home/home2Tmpl.html"
+        })
         .state('spartaAttack', {
           url: "/spartaPage",
           templateUrl: "./js/home/spartaTmpl.html"
