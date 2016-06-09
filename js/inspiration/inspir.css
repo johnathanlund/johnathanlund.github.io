@@ -1,0 +1,31 @@
+#inspir-page-container {
+  height: 100%;
+  width: 100%;
+  color: orange;
+  background-image: url('/img/melissani-cave-water-greece.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+}
+
+.inspir-title {
+  font-size: 450%;
+  color: lawngreen;
+  text-shadow: 2px 2px green,
+               -2px 2px green,
+               2px -2px green,
+               -2px -2px green;
+}
+
+.inspir-list {
+  font-size: 350%;
+  text-align: center;
+  text-shadow: 2px 2px black,
+               -2px 2px black,
+               2px -2px black,
+               -2px -2px black;
+}
+
+#inspir-footer {
+  color: white;
+}

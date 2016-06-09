@@ -4,7 +4,7 @@
   color: white;
   background-image:
          radial-gradient(rgba(96, 101, 96, 0.5), rgba(96, 101, 96, 0.5)),
-         url('./img/soccer kid monks playing.jpg');
+         url('/img/soccer kid monks playing.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
