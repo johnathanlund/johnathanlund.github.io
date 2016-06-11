@@ -1,0 +1,6 @@
+.about_container {
+  width: 100vh;
+  height: 100vh;
+  background-image: url('../images/bora-bora-sunset2.jpg');
+  color: white;
+}

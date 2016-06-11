@@ -1,36 +1,16 @@
-angular.module('portfolioApp', ['ui.router'])
-.config(function ($stateProvider, $urlRouterProvider) {
+angular.module('appPortfolio', ['ui.router']).config(function ($stateProvider, $urlRouterProvider) {
 
+      $stateProvider
+      .state('home', {
+        url: "/home",
+        templateUrl: './js/Home/homeTmpl.html',
+        controller: 'homeCtrl'
+      })
+      .state('about', {
+        url: "/about",
+        templateUrl: "./js/About/aboutTmpl.html",
+        controller: 'aboutCtrl'
+      });
 
-
-    $stateProvider
-        .state('home', {
-          url: "/homePage",
-          templateUrl:"./js/Home/homeTmpl.html",
-        })
-        .state('work', {
-          url: "/workPage",
-          templateUrl: "./js/work/workTmpl.html"
-        })
-        .state('inspiration', {
-          url: "/inspiration",
-          templateUrl: "./js/inspiration/inspirTmpl.html"
-        })
-        .state('knowledge', {
-          url: "/knowledge",
-          templateUrl: "./js/knowledge/knowTmpl.html"
-        })
-        .state('home2', {
-          url: "/home2",
-          templateUrl: "./js/home/home2Tmpl.html"
-        })
-        .state('spartaAttack', {
-          url: "/spartaPage",
-          templateUrl: "./js/home/spartaTmpl.html"
-        })
-        .state('thisIsSparta', {
-          url: "/sparta2Page",
-          templateUrl: "./js/home/spartaTmpl2.html"
-        });
-        $urlRouterProvider.otherwise('/homePage');
-})
+  $urlRouterProvider.otherwise('/home');
+});

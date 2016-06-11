@@ -1,0 +1,12 @@
+html, body {
+
+}
+
+a {
+  color: lawngreen;
+}
+
+a:hover {
+  font-size: 125%;
+  color: red;
+}
