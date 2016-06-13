@@ -53,7 +53,7 @@ typing-home {
   height: 800px;
   width: 100%;
   background: coral;
-  position: relative;
+  /*position: relative;*/
 }
 
 .middle_text {
@@ -65,7 +65,16 @@ typing-home {
   margin-top: 200px;
 }
 
-.middle_image_container {
+#middle_lower_img {
+  width: 50vw;
+  height: 100vh;
+  margin-left: 25%;
+  background-image: url('../images/Cruise-IMG_0202.JPG');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#middle_image_container {
   width: 100vw;
   height: 100vh;
   background-image: url('../images/tiger-growl.jpg');

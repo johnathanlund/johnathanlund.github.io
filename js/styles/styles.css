@@ -7,6 +7,6 @@ a {
 }
 
 a:hover {
-  font-size: 125%;
+  /*font-size: 125%;*/
   color: red;
 }

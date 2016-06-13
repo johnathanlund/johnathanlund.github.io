@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100px;
   display: flex;
+  position: fixed;
   background: rgb(65, 65, 65);
   color: white;
   text-align: center;
@@ -35,7 +36,7 @@
 }
 
 .menu-open-button {
-  background: rgba(49, 187, 217, 1);
+  background: rgb(65, 65, 65);
   border-radius: 100%;
   border: 1px solid white;
   width: 40px;

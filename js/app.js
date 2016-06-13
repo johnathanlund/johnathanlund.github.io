@@ -1,4 +1,4 @@
-angular.module('appPortfolio', ['ui.router']).config(function ($stateProvider, $urlRouterProvider) {
+angular.module('appPortfolio', ['ui.router', 'smoothScroll']).config(function ($stateProvider, $urlRouterProvider) {
 
       $stateProvider
       .state('home', {
