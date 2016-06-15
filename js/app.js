@@ -6,10 +6,10 @@ angular.module('appPortfolio', ['ui.router', 'smoothScroll']).config(function ($
         templateUrl: './js/Home/homeTmpl.html',
         controller: 'homeCtrl'
       })
-      .state('about', {
-        url: "/about",
-        templateUrl: "./js/About/aboutTmpl.html",
-        controller: 'aboutCtrl'
+      .state('resume', {
+        url: "/resume",
+        templateUrl: "./js/Resume/resumeTmpl.html",
+        controller: 'resumeCtrl'
       });
 
   $urlRouterProvider.otherwise('/home');

@@ -1,5 +1,11 @@
 angular.module('appPortfolio').controller('homeCtrl', function ($scope) {
 
-  $scope.test = "Testing Home.";
+  $scope.hoverIn = function() {
+    this.hoverInfo = true;
+  };
+
+  $scope.hoverOut = function() {
+    this.hoverInfo = false;
+  };
 
 });
