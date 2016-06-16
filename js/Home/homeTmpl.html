@@ -1,17 +1,92 @@
-<div class="home-page-container" id="home-element-with-background-image">
-    <navcircle-menu></navcircle-menu>
-    <h2 id="name-headline">JOHNATHAN LUND</h2>
-    <br/>
-    <div id="spartaAttack">
-        <a ui-sref="spartaAttack">
-            <button type="button">Spartan's Attack</button>
-        </a>
+<div class="home_container">
+  <nav-bar></nav-bar>
+  <br>
+  <div id="home_top_intro">
+    <video autoplay loop class="home_intro_video" muted="muted">
+        <source src="./js/images/rocks_coast_lighthouse_1080p.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          </video>
+      <div class="home_intro_image">
+      </div>
+          <br>
+          <h2 id="home_name" class="section">JOHNATHAN LUND</h2>
+          <h2 id="home_name_below">WEB DEVELOPER</h2>
+          <br>
+  </div>
+  <section>
+    <div class="middle_section_container">
+      <div class="middle_text">
+          <p>
+            Raised as a military kid traveling the world. Grown up to be a family man and outdoorsman,
+            ready for any situation. Found a love for Front-End Dev working MEAN stack, loving every chance to learn more design and coding.
+          </p>
+      </div>
     </div>
-    <br/>
-    <div id="thisIsSparta">
-        <a ui-sref="thisIsSparta">
-            <span id="red-eye"></span>
-        </a>
+    <div id="family_img" class="section"></div>
+    <div id="skills_container">
+      <h2 class="skills_heading">SKILLS</h2>
+      <div class="html_box skills_box">
+        <div class="html_image skills_image" style="background-image: url(../js/images/HTML5_Badge.png)"></div>
+        <h3 class="html_name skills_name">HTML</h3>
+      </div>
+      <div class="css_box skills_box">
+        <div class="css_image skills_image" style="background-image: url(../js/images/CSS3_Logo.png)"></div>
+        <h3 class="css_name skills_name">CSS</h3>
+      </div>
+      <div class="javascript_box skills_box">
+        <div class="javascript_image skills_image" style="background-image: url(../js/images/Javascript_Badge.png)"></div>
+        <h3 class="javascript_name skills_name">JavaScript</h3>
+      </div>
+      <div class="git_box skills_box">
+        <div class="git_image skills_image" style="background-image: url(../js/images/git-logo.png)"></div>
+        <h3 class="git_name skills_name">Git</h3>
+      </div>
+      <div class="angular_box skills_box">
+        <div class="angular_image skills_image" style="background-image: url(../js/images/angular-logo.png)"></div>
+        <h3 class="angular_name skills_name">AngularJS</h3>
+      </div>
+      <div class="node_box skills_box">
+        <div class="node_image skills_image" style="background-image: url(../js/images/nodejs-logo.png)"></div>
+        <h3 class="node_name skills_name">NodeJS</h3>
+      </div>
+      <div class="express_box skills_box">
+        <div class="express_image skills_image" style="background-image: url(../js/images/ExpressJS.jpg)"></div>
+        <h3 class="express_name skills_name">ExpressJS</h3>
+      </div>
+      <div class="mongo_box skills_box">
+        <div class="mongo_image skills_image" style="background-image: url(../js/images/mongodb-logo-png-just-icon.png)"></div>
+        <h3 class="mongo_name skills_name">MongoDB</h3>
+      </div>
     </div>
-    <footer id="knowledge-footer"></footer>
+
+    <div id="projects_container" class="section" data-parallax="scroll">
+      <div class="map_project projects_box" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+        <div class="project_info" ng-show="hoverInfo">
+          <a href="http://107.170.243.195/#/homePage">Tree Branch Maps</a><br>
+          <h4>A personal map experienc for every user. Where they can create their own map with with lists of their favorite locations.</h4>
+        </div>
+      </div>
+      <div class="devhousing_project projects_box" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+        <div class="project_info" ng-show="hoverInfo">
+          <a href="http://159.203.195.67">Dev-Housing</a><br>
+          <h4>A housing application to connect the administration with students in housing. Making it tool for the admin to better manage housing tasks.</h4>
+        </div>
+      </div>
+    </div>
+    <div class="bottom_container">
+      <br><br><br><br>
+      <h3><typing-home></typing-home></h3>
+    </div>
+  </section>
+  <footer id="footer" class="section">
+    <h3 class="footer_text">CONNECT WITH ME</h3>
+    <!-- =========================Fix this so link works at right size============================================================== -->
+    <div class="link_logos" id="footer_links">
+      <a href="https://github.com/johnathanlund" class="github_logo connect_logo"><span></span></a>
+      <a href="https://www.linkedin.com/in/johnathan-lund-878621120" class="linkedin_logo connect_logo"><span></span></a>
+      <a href="" class="other_logo connect_logo"><span></span></a>
+
+    </div>
+
+
+  </footer>
 </div>

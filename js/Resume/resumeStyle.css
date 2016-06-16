@@ -1,0 +1,16 @@
+.resume_container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/bora-bora-sunset3.jpg');
+  background-size: cover;
+  color: white;
+}
+
+@media (min-width: 1200px) {
+  .resume_container {
+    background-image: url('../images/bora-bora-sunset2.jpg');
+  }
+
+
+
+}

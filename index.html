@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html ng-app="portfolioApp" lang='en'>
+<html ng-app="appPortfolio">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HTML INTRO ">
-    <meta name="keywords" content="HTML,CSS. FLexbox ">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./stylesMenu.css">
-    <link rel="stylesheet" href="./stylesKnowledge.css">
-    <link rel="stylesheet" href="./js/home/home2.css">"
-    <title>John Lund Portfolio</title>
+    <link rel="stylesheet" href="./js/styles/normalize.css">
+    <link rel="styleSheet" href="./js/styles/styles.css">
+    <link rel="styleSheet" href="./js/styles/stylesMenu.css">
+    <link rel="styleSheet" href="./js/Resume/resumeStyle.css">
+    <link rel="styleSheet" href="./js/Home/homeStyle.css">
+    <link rel="shortcut icon" href="./js/images/spartan-shapes.png"/>
+
+    <title>Johnathan Lund</title>
   </head>
-  <body ng-controller="mainCtrl">
+  <body>
 
-    <section class="view-page-container" ui-view></section>
+    <ui-view></ui-view>
 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/mainCtrl.js"></script>
-    <script src="js/directive.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="/bower_components/ngSmoothScroll/lib/angular-smooth-scroll.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/Home/homeCtrl.js"></script>
+    <script src="./js/Resume/resumeCtrl.js"></script>
+    <script src="./js/directives/typingHome.js"></script>
+    <script src="./js/animations/jquery.js"></script>
+    <script src="./js/animations/parallax.min.js"></script>
+    <script src="./js/directives/navbar.js"></script>
+
   </body>
 </html>

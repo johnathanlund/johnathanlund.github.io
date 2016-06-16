@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Proxima';
+    src: url('../proxima/proximaNova-Light.otf');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('../proxima/ProximaNova-Semibold_1.otf');
+}
+
+.navbar_container {
+  width: 100vw;
+  height: 8vh;
+  display: none;
+  position: fixed;
+  background: rgb(65, 65, 65);
+  color: white;
+  text-align: center;
+  z-index: 3;
+}
+
+.navbar_left {
+  width: 50%;
+  float: left;
+}
+
+.navbar_right {
+  width: 50%;
+  float: right;
+}
+
+.navBar-link {
+  font-family: 'Proxima', serif;
+  font-size: 100%;
+  padding-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lawngreen;
+}
+
+nav[role="navigation"] {
+  width: 100vw;
+  height: 8vh;
+  position: fixed;
+  background: rgb(65, 65, 65);
+  height: 40px;
+  display: block;
+  margin-bottom: -20px;
+  font-family: 'Lato', sans-serif;
+  z-index: 3;
+}
+
+nav[role="navigation"] a {
+  font-size:2em;
+  color: #fff;
+  text-decoration: none;
+  /*padding: 0 15px;*/
+  line-height: 35px;
+  z-index: 3;
+}
+nav[role="navigation"] li {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background: rgb(65, 65, 65);
+  border: 1px solid #fff;
+  z-index: 3;
+}
+
+nav[role="navigation"] span {
+  font-size: 35px;
+  z-index: 3;
+}
+
+.menu {
+  margin-top: 3px;
+  display: none;
+  z-index: 3;
+}
+
+@media (min-width: 700px) {
+
+}
+
+@media (min-width: 900px) {
+
+}
+
+@media (min-width: 1200px) {
+
+  .navbar_container {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+  }
+
+  .navBar-link {
+    font-size: 150%;
+    padding-right: 20px;
+  }
+
+  nav[role="navigation"] {
+    display: none;
+  }
+
+}
