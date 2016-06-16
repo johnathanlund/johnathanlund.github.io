@@ -258,7 +258,7 @@ footer {
   width: 100%;
   display: flex;
   padding-bottom: 25px;
-  padding-left: 15%;
+  padding-left: 27%;
 }
 
 .connect_logo {
@@ -278,9 +278,6 @@ footer {
   background-size: cover;
 }
 
-.other_logo {
-  border: 2px solid white;
-}
 
 @media (min-width: 700px) {
 
@@ -512,7 +509,7 @@ footer {
 
   .link_logos {
     display: flex;
-    padding-left: 41%;
+    padding-left: 45%;
     /*padding-right: 25%;*/
     padding-bottom: 25px;
   }
@@ -531,10 +528,6 @@ footer {
 
   .linkedin_logo {
     background-size: cover;
-  }
-
-  .other_logo {
-    border: 2px solid white;
   }
 
 }
