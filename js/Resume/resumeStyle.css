@@ -12,10 +12,11 @@
   }
 
   .resume_display {
-    height: 900px;
-    width: 800px;
+    height: 1200px;
+    width: 900px;
     font-size: 300%;
-    padding: 300px 0 0 1000px;
+    padding: 100px 0 0 20%;
+    /*padding: 100px;*/
     -webkit-text-fill-color: white;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
@@ -25,8 +26,9 @@
   }
 
   .resume_display a {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
+    float: left;
   }
 
 
