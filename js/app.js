@@ -10,6 +10,11 @@ angular.module('appPortfolio', ['ui.router', 'smoothScroll']).config(function ($
         url: "/resume",
         templateUrl: "./js/Resume/resumeTmpl.html",
         controller: 'resumeCtrl'
+      })
+      .state('adobeClone', {
+        url: "/adobeClone",
+        templateUrl: "./js/Adobe_Photoshop_Copy/index.html",
+        controller: 'main.js'
       });
 
   $urlRouterProvider.otherwise('/home');

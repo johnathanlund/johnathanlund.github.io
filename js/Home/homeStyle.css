@@ -429,15 +429,16 @@ footer {
   }
 
   .projects_box {
-    width: 1111px;
-    height: 526px;
+    width: 800px;
+    height: 379px;
     padding: 40px;
     margin-left: 5%;
+    display: flex;
   }
 
   .project_info {
-    width: 1111px;
-    height: 526px;
+    width: 800px;
+    height: 379px;
     background: rgba(73, 73, 73, 0.6);
   }
 
@@ -463,6 +464,12 @@ footer {
 
   .devhousing_project {
     background-image: url('../images/devhousing_project.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .adobe_Photoshop_Copy_Project {
+    background-image: url('../images/Adobe_Photoshop_Copy_Screenshot.png');
     background-size: contain;
     background-repeat: no-repeat;
   }
