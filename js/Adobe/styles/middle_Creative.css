@@ -1,0 +1,136 @@
+.middle_Creative_Container {
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  margin-top: -20px;
+  background: #ffffff;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Container {
+    height: 160%;
+  }
+}
+
+.middle_Creative_Top_Info_Box {
+  width: 90%;
+  margin: 5px 0 50px 5%;
+  text-align: center;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Top_Info_Box {
+    margin: 5px 0 0 5%;
+  }
+}
+
+.middle_Creative_Top_Info_Heading {
+  font-size: 1.5rem;
+  line-height: 1.6875rem;
+  font-weight: lighter;
+  margin: 3.5rem 0 0 0;
+}
+
+.middle_Creative_Top_Info_Text {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 300;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.middle_Creative_Top_Info_Link {
+  font-size: 14px;
+  color: #2b9af3;
+  text-decoration: none;
+  /*margin: 1rem 0 0 0;*/
+}
+
+.middle_Creative_Top_Info_Link:hover {
+  color: #33ccff;
+  cursor: pointer;
+}
+
+.middle_Creative_Mid_Info_Box {
+  width: 90%;
+  height: 315px;
+  text-align: center;
+  margin: 0 0 0 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Box {
+    margin: 5px 0 0 0;
+  }
+}
+
+.middle_Creative_Mid_Info_Image {
+  width: 288px;
+  height: 160px;
+  margin: 0 0 0 15px;
+  padding: 0;
+  border: 0;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Image {
+    width: 343px;
+    height: 188px;
+  }
+}
+
+.connected1 {
+  background-image: url('../images/ps-connected1-1000x550.jpg');
+  background-size: cover;
+}
+
+.connected2 {
+  background-image: url('../images/ps-connected2-1000x550.jpg');
+  background-size: cover;
+}
+
+.middle_Creative_Mid_Info_Heading {
+font-size: 17px;
+line-height: 22px;
+font-family: myriadBold, sans-serif;
+margin: 0.5rem 0 0.5rem 0;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Heading {
+    margin: 0.5rem 0 0.5rem 10%;
+  }
+}
+
+
+.middle_Creative_Mid_Info_Text {
+font-size: 14px;
+line-height: 19px;
+margin: 0 0 0 5%;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Text {
+    margin: 0 0 0 10%;
+  }
+}
+
+.middle_Creative_Mid_Info_Link {
+  font-size: 14px;
+  color: #2b9af3;
+  text-decoration: none;
+  margin: 0 0 0.5rem 0;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Link {
+    margin: 0 0 0.5rem 10%;
+  }
+}
+
+.middle_Creative_Mid_Info_Link:hover {
+  color: #33ccff;
+  cursor: pointer;
+}

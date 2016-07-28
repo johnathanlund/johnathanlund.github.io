@@ -1,0 +1,92 @@
+.middle_Tutorial_Container {
+  width: 100%;
+  height: 189%;
+  margin: 180vh 0 0 0;
+  position: absolute;
+  background-image: url('../images/ps-fields-bg-1440x588.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Tutorial_Container {
+    margin: 156vh 0 0 0;
+  }
+}
+
+.middle_Tutorial_Top_Info_Box{
+  width: 100%;
+  height: 255px;
+  position: relative;
+  margin: 120px 0 -80px 0;
+}
+
+#middle_Tutorial_Top_Info_Heading {
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 300;
+  margin: 0 0 -10px 0;
+}
+
+.middle_Tutorial_Top_Info_Text {
+font-size: 14px;
+line-height: 19px;
+font-weight: 500;
+}
+
+.middle_Tutorial_Mid_Images_Box {
+  width: 110%;
+}
+
+.middle_Tutorial_Mid_Image {
+  width: 288px;
+  height: 152px;
+  margin: 0 0 3.5rem 1.0rem;
+}
+
+.middle_Tutorial_Mid_Image:hover {
+  cursor: pointer;
+}
+
+.tutorial1 {
+  background-image: url('../images/ps-fieldsthumb1-660x348.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.video_Play_Button {
+  margin: 50px -.67em -.25em 0;
+  box-sizing: border-box;
+  height: 1em;
+  width: 1em;
+  border-radius: .5em;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: .1em solid transparent;
+  box-shadow: inset 0 0 0 .01875em, 0 0 0 .05em, 0 0 .0375em .01875em rgba(0, 0, 0, 0.25);
+}
+
+.tutorial2 {
+  background-image: url('../images/ps-fieldsthumb2-660x348.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tutorial3 {
+  background-image: url('../images/ps-fieldsthumb3-660x348.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.middle_Tutorial_Mid_Image_Link {
+  font-size: 14px;
+  color: #2b9af3;
+  text-decoration: none;
+  margin: 0 0 1rem 0;
+}
+
+.middle_Tutorial_Mid_Image_Link:hover {
+  color: #33ccff;
+  cursor: pointer;
+}

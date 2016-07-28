@@ -1,0 +1,132 @@
+.middle_Experience_Container {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  background: #363636;
+  color: white;
+  padding-top: 50px;
+  margin: 147px 0 0 0;
+}
+
+.middle_Experience_Top_Info_Box {
+  width: 288px;
+  height: 185px;
+  margin: 40px 0 0 12px;
+  text-align: center;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Experience_Top_Info_Box {
+    width: 90%;
+    margin: 40px 0 0 5%;
+  }
+}
+
+.middle_Experience_Top_Heading {
+  width: 100%;
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.middle_Experience_Top_Text {
+  width: 100%;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 300;
+  margin-top: -20px;
+}
+
+.middle_Experience_Top_Links {
+  width: 100%;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 300;
+  margin-top: -10px;
+}
+
+.middle_Experience_Top_Link {
+color: #2b9af3;
+text-decoration: none;
+}
+
+.middle_Experience_Top_Link:hover {
+  color: #33ccff;
+  cursor: pointer;
+}
+
+.middle_Experience_Mid_Info_Container {
+  width: 288px;
+  height: 100%;
+  margin: 40px 0 50px 12px;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Experience_Mid_Info_Container {
+    width: 90%;
+    margin: 40px 0 100px 5%;
+  }
+}
+
+.middle_Experience_Mid_Info_Box {
+  width: 100%;
+  height: 315px;
+  text-align: center;
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Experience_Mid_Info_Box {
+    margin: 0 0 1% 0;
+    padding: 48px 0 0 0;
+  }
+}
+
+.middle_Experience_Mid_Info_Image {
+  width: 100%;
+  height: 200px;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Experience_Mid_Info_Image {
+    width: 343px;
+    height: 254px;
+  }
+}
+
+.feature1 {
+  background-image: url('../images/ps-feature1-540x400.jpg');
+  background-size: cover;
+}
+
+.feature2 {
+  background-image: url('../images/ps-feature2-540x400.jpg');
+  background-size: cover;
+}
+
+.feature3 {
+  background-image: url('../images/ps-feature3-540x400.jpg');
+  background-size: cover;
+}
+
+.feature4 {
+  background-image: url('../images/ps-feature4-540x400.jpg');
+  background-size: cover;
+}
+
+.middle_Experience_Mid_Info_Text {
+ margin-bottom: 5px;
+}
+
+.middle_Experience_Mid_Info_Link {
+  color: #2b9af3;
+  text-decoration: none;
+}
+
+.middle_Experience_Mid_Info_Link:hover {
+  color: #33ccff;
+  cursor: pointer;
+}

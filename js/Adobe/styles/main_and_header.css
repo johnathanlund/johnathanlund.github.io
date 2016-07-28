@@ -1,0 +1,173 @@
+@font-face {
+  font-family: myriad;
+  src: url('../fonts/Myriad Pro/Myriad Pro Light.otf');
+}
+@font-face {
+font-family: myriadBold;
+src: url('../fonts/Myriad Pro/Myriad Pro Bold.ttf');
+}
+
+html body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background: yellow;
+  font-family: myriad, sans-serif;
+}
+
+.single_Page_container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: lawngreen;
+}
+
+.header_Container {
+  width: 100%;
+  height: 220px;
+  background: rgb(19,22,49);
+  color: #ffffff;
+}
+
+.menu_Layout {
+  width: 80%;
+  height: 70px;
+  margin-left: 10%;
+  /*background: lightblue;*/
+}
+
+.icon_Block {
+  width: 40px;
+  height: 20px;
+  /*background: white;*/
+  float: right;
+  margin-top: 23px;
+}
+
+.icon_Words {
+  display: none;
+}
+
+#menu_Icon {
+  width: 70%;
+  height: 120%;
+  /*background: purple;*/
+  margin-left: 15%;
+  margin-top: -5px;
+  background-image: url('../images/hamburger-menu-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#search_Icon {
+  width: 70%;
+  height: 100%;
+  /*background: red;*/
+  margin-left: 15%;
+  background-image: url('../images/search-icon-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#login_Icon {
+  width: 70%;
+  height: 100%;
+  /*background: blue;*/
+  margin-left: 15%;
+  background-image: url('../images/no_user_logo-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#adobe_Icon {
+  width: 70%;
+  height: 100%;
+  /*background: orange;*/
+  margin-left: 15%;
+  background-image: url('../images/Adobe-logo-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#scrolling_Header {
+  position: sticky;
+  background: rgb(19,22,49);
+  z-index: 10;
+}
+
+/*.scrolling_Header_2 {
+  position: fixed;
+  top: 0;
+}*/
+
+.middle_Page_Header {
+  width: 100%;
+  height: 45px;
+  margin: -10px 0 0 20px;
+}
+
+#photoshop_Icon {
+  width: 32px;
+  height: 32px;
+  /*display: inline-block;*/
+  float: left;
+  margin-right: 10px;
+  /*background: red;*/
+  background-image: url('../images/Adobe_Photoshop_CC_icon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middle_Page_Title {
+width: 100%;
+height: 33px;
+font-size: 27px;
+}
+
+.bottom_Page_Header {
+  width: 100%;
+  height: 55px;
+  margin: 0 0 2rem 0;
+  display: inline-block;
+  /*text-align: left;*/
+}
+
+.bottom_Page_Link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 0 0 1ex 0;
+  margin: 0.5ex 0.5rem 0.5ex 0.5rem;
+  float: left;
+  /*text-align: center;*/
+}
+
+.bottom_Page_Link:hover {
+  border-bottom: solid 2px #ffffff;
+  cursor: pointer;
+}
+
+.bottom_Page_Button {
+  width: 80px;
+  height: 32px;
+  position: relative;
+  background: #2B9AF3;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin: 0 0 0 27px;
+  padding-bottom: -20px;
+  font-size: 16px;
+}
+
+.bottom_Page_Button:hover {
+  cursor: pointer;
+  background: #363636;
+}
+
+.bottom_Scrolling_Link {
+  display: none;
+}

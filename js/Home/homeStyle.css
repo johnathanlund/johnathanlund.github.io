@@ -201,6 +201,12 @@
   background-repeat: no-repeat;
 }
 
+.adobe_Photoshop_Copy_Project {
+  background-image: url('../images/Adobe_Photoshop_Copy_Screenshot.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .parallax-window {
   min-height: 400px;
   /*background: transparent;*/

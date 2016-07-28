@@ -13,7 +13,7 @@ angular.module('appPortfolio', ['ui.router', 'smoothScroll']).config(function ($
       })
       .state('adobeClone', {
         url: "/adobeClone",
-        templateUrl: "./js/Adobe_Photoshop_Copy/index.html",
+        templateUrl: "./js/Adobe/index.html",
         controller: 'main.js'
       });
 
