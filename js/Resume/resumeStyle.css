@@ -6,16 +6,37 @@
   color: white;
 }
 
+.resume_display {
+  padding: 85px 0 0 25%;
+}
+
+iframe {
+  height: 400px;
+  width: 300px;
+}
+
+.resume_container footer {
+  margin: 65px 0 0 0;
+}
+
+
 @media (min-width: 1200px) {
   .resume_container {
+    width: 100vw;
+    height: 140vh;
     background-image: url('../images/bora-bora-sunset2.jpg');
   }
 
+  iframe {
+    height: 750px;
+    width: 750px;
+  }
+
   .resume_display {
-    height: 1200px;
-    width: 900px;
+    height: 800px;
+    width: 1000px;
     font-size: 300%;
-    padding: 100px 0 0 20%;
+    padding: 85px 0 0 20%;
     /*padding: 100px;*/
     -webkit-text-fill-color: white;
     -webkit-text-stroke-color: black;
