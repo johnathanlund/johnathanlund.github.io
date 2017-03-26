@@ -64,7 +64,7 @@ nav[role="navigation"] a {
   line-height: 35px;
   z-index: 3;
 }
-nav[role="navigation"] li {
+nav[role="navigation"] .mobile_menu_links {
   width: 100%;
   height: auto;
   text-align: center;
@@ -76,6 +76,16 @@ nav[role="navigation"] li {
 nav[role="navigation"] span {
   font-size: 35px;
   z-index: 3;
+}
+
+.toggle {
+  color: white;
+  font-size: 130%;
+  margin: -5px 0 0 0;
+}
+
+.toggle p {
+  margin: -32px 0 0 40px;
 }
 
 .menu {

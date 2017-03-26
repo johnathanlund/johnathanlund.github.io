@@ -24,6 +24,14 @@
     <div id="family_img" class="section"></div>
     <div id="skills_container">
       <h2 class="skills_heading">SKILLS</h2>
+      <div class="angular_box skills_box">
+        <div class="angular_image skills_image" style="background-image: url(../js/images/angular-logo.png)"></div>
+        <h3 class="angular_name skills_name">AngularJS</h3>
+      </div>
+      <div class="mongo_box skills_box">
+        <div class="mongo_image skills_image" style="background-image: url(../js/images/mongodb-logo-png-just-icon.png)"></div>
+        <h3 class="mongo_name skills_name">MongoDB</h3>
+      </div>
       <div class="html_box skills_box">
         <div class="html_image skills_image" style="background-image: url(../js/images/HTML5_Badge.png)"></div>
         <h3 class="html_name skills_name">HTML</h3>
@@ -40,10 +48,6 @@
         <div class="git_image skills_image" style="background-image: url(../js/images/git-logo.png)"></div>
         <h3 class="git_name skills_name">Git</h3>
       </div>
-      <div class="angular_box skills_box">
-        <div class="angular_image skills_image" style="background-image: url(../js/images/angular-logo.png)"></div>
-        <h3 class="angular_name skills_name">AngularJS</h3>
-      </div>
       <div class="node_box skills_box">
         <div class="node_image skills_image" style="background-image: url(../js/images/nodejs-logo.png)"></div>
         <h3 class="node_name skills_name">NodeJS</h3>
@@ -52,17 +56,17 @@
         <div class="express_image skills_image" style="background-image: url(../js/images/ExpressJS.jpg)"></div>
         <h3 class="express_name skills_name">ExpressJS</h3>
       </div>
-      <div class="mongo_box skills_box">
-        <div class="mongo_image skills_image" style="background-image: url(../js/images/mongodb-logo-png-just-icon.png)"></div>
-        <h3 class="mongo_name skills_name">MongoDB</h3>
-      </div>
     </div>
 
     <div id="projects_container" class="section" data-parallax="scroll">
+      <div class="projects_heading">
+        <h1>MY PROJECTS</h1>
+      </div><br>
+      <div class="projects_box_container">
       <div class="map_project projects_box" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
         <div class="project_info" ng-show="hoverInfo">
           <a href="http://107.170.243.195/#/homePage">Tree Branch Maps</a><br>
-          <h4>A personal map experienc for every user. Where they can create their own map with with lists of their favorite locations.</h4>
+          <h4>A personal map experience for every user. Where they can create their own map with with lists of their favorite locations.</h4>
         </div>
       </div>
       <div class="devhousing_project projects_box" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
@@ -78,8 +82,9 @@
         </div>
       </div>
     </div>
+    </div>
     <div class="bottom_container">
-      <br><br><br><br>
+      <br><br>
       <h3><typing-home></typing-home></h3>
     </div>
   </section>

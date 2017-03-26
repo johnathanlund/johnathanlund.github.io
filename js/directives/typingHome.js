@@ -7,10 +7,9 @@ angular.module('appPortfolio')
       controller: function() {
         var sentences = [
           "a full stack website developer",
-          "a foosball apprentice",
           "motivated to work hard and succeed",
-          "a husband, and father to be",
-          "a wolf man",
+          "a proud husband and father",
+          "a man by day, wolf by night",
           "eager to learn",
           "interested in helping projects succeed",
           "excited for new opportunities"

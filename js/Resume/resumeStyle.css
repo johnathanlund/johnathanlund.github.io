@@ -6,8 +6,12 @@
   color: white;
 }
 
+.resume_container nav-bar .navbar_container{
+  background-color: red;
+}
+
 .resume_display {
-  padding: 85px 0 0 25%;
+  padding: 85px 0 0 10%;
 }
 
 iframe {
@@ -17,6 +21,14 @@ iframe {
 
 .resume_container footer {
   margin: 65px 0 0 0;
+}
+
+.resume_container .footer_text {
+  margin: 0 0 0 -8%;
+}
+
+.resume_container .link_logos {
+  margin: 0 0 0 -5%;
 }
 
 
@@ -52,6 +64,8 @@ iframe {
     float: left;
   }
 
-
+  .resume_container footer {
+    margin: 35px 0 0 0;
+  }
 
 }
