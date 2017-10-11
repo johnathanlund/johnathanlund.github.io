@@ -221,7 +221,7 @@ html {
   width: 100%;
   height: 100%;
   text-align: center;
-  color: white;
+  color: yellow;
   background: rgba(73, 73, 73, 0.6);
 }
 
@@ -231,8 +231,8 @@ html {
   background-repeat: no-repeat;
 }
 
-.map_project {
-  background-image: url('../images/maps_project.png');
+.silverGold_project {
+  background-image: url('../images/SilverandGold_screenshot.png');
   background-size: contain;
   background-repeat: no-repeat;
   /*margin: 20px 0 0 0;*/
@@ -539,11 +539,13 @@ footer {
     background: rgba(73, 73, 73, 0.6);
   }
 
-  .project_info a {
+  .projects_link h5 {
     width: 100%;
     height: 40px;
-    font-size: 250%;
-    padding-top: 40%;
+    font-size: 150%;
+    padding: 5% 0 0 0;
+    margin: 0;
+    /*margin-top: -20%;*/
   }
 
   .project_info h4 {
@@ -559,8 +561,8 @@ footer {
     background-repeat: no-repeat;
   }
 
-  .map_project {
-    background-image: url('../images/maps_project.png');
+  .silverGold_project {
+    background-image: url('../images/SilverandGold_screenshot.png');
     background-size: contain;
     background-repeat: no-repeat;
   }

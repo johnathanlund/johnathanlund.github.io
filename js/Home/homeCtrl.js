@@ -16,12 +16,12 @@ angular.module('appPortfolio').controller('homeCtrl', function ($scope) {
     this.hoverInfoHandyman = false;
   };
 
-  $scope.hoverInTree = function() {
-    this.hoverInfoTree = true;
+  $scope.hoverInSilverGold = function() {
+    this.hoverInfoSilverGold = true;
   };
 
-  $scope.hoverOutTree = function() {
-    this.hoverInfoTree = false;
+  $scope.hoverOutSilverGold = function() {
+    this.hoverInfoSilverGold = false;
   };
 
   $scope.hoverInDevHousing = function() {
